@@ -1,0 +1,108 @@
+{
+  "version": "15.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CdkStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/CdkStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "/Users/rex.lam/Desktop/sam-issue/src",
+              "id": "bdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141de",
+              "packaging": "zip",
+              "sourceHash": "bdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141de",
+              "s3BucketParameter": "AssetParametersbdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141deS3BucketBDC28740",
+              "s3KeyParameter": "AssetParametersbdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141deS3VersionKey6A3D68C0",
+              "artifactHashParameter": "AssetParametersbdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141deArtifactHashE70AA7CE"
+            }
+          }
+        ],
+        "/CdkStack/FunctionConstruct/ApiGetCountries/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "FunctionConstructApiGetCountriesServiceRole4AACFC07"
+          }
+        ],
+        "/CdkStack/FunctionConstruct/ApiGetCountries/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "FunctionConstructApiGetCountries70F308F6"
+          }
+        ],
+        "/CdkStack/FunctionConstruct/DemoHttpApi/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "FunctionConstructDemoHttpApi96E635F6"
+          }
+        ],
+        "/CdkStack/FunctionConstruct/DemoHttpApi/DefaultStage/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "FunctionConstructDemoHttpApiDefaultStage4A82AF6D"
+          }
+        ],
+        "/CdkStack/FunctionConstruct/DemoFunction/DemoFunctionIntegration-Permission": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "FunctionConstructDemoFunctionDemoFunctionIntegrationPermission344C7C79"
+          }
+        ],
+        "/CdkStack/FunctionConstruct/DemoFunction/DemoFunctionIntegration/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "FunctionConstructDemoFunctionDemoFunctionIntegration25CB20E9"
+          }
+        ],
+        "/CdkStack/FunctionConstruct/DemoFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "FunctionConstructDemoFunction51D27E58"
+          }
+        ],
+        "/CdkStack/AssetParameters/bdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141de/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersbdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141deS3BucketBDC28740"
+          }
+        ],
+        "/CdkStack/AssetParameters/bdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141de/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersbdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141deS3VersionKey6A3D68C0"
+          }
+        ],
+        "/CdkStack/AssetParameters/bdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141de/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersbdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141deArtifactHashE70AA7CE"
+          }
+        ],
+        "/CdkStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/CdkStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ]
+      },
+      "displayName": "CdkStack"
+    }
+  }
+}

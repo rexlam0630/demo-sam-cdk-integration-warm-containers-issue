@@ -1,0 +1,32 @@
+{
+  "version": "15.0.0",
+  "files": {
+    "bdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141de": {
+      "source": {
+        "path": "/Users/rex.lam/Desktop/sam-issue/src",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "bdb606bb79df9dcab87fac0bbc61d204a4ad9ff2dffae156e1e3e3bc430141de.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "85de51e5e8d4d7e07f7ddbecbe27403649103f0935b77fcc100344efcf8b889d": {
+      "source": {
+        "path": "CdkStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "85de51e5e8d4d7e07f7ddbecbe27403649103f0935b77fcc100344efcf8b889d.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
